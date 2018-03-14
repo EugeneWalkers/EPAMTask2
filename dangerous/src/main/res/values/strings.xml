@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">Dangerous</string>
-    <string name="email_hint">Enter email here</string>
-    <string name="subject_hint">Subject</string>
-    <string name="letter_hint">Write a letter here</string>
-    <string name="send">send</string>
-</resources>
