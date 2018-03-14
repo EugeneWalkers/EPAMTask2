@@ -10,6 +10,7 @@
 
     <permission
         android:name="ew.dangerous.CustomMailActivity"
+        android:label="my_permission"
         android:protectionLevel="dangerous" />
 
     <application
@@ -21,7 +22,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="ew.dangerous.CustomMailActivity" >
+        <activity
+            android:name="ew.dangerous.CustomMailActivity"
+            android:permission="ew.dangerous.CustomMailActivity" >
             <intent-filter>
                 <action android:name="ew.dangerous.CustomMailActivity" />
 
